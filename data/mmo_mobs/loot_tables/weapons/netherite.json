@@ -21,11 +21,7 @@
 
                     "conditions": [
                         {
-                          "condition": "minecraft:killed_by_player"
-                        },
-
-                        {
-                          "condition": "minecraft:random_chance_with_looting",
+                          "condition": "minecraft:random_chance",
                           "chance": 0.25,
                           "looting_multiplier": 0.01
                         }
@@ -46,12 +42,8 @@
 
                     "conditions": [
                         {
-                          "condition": "minecraft:killed_by_player"
-                        },
-
-                        {
-                          "condition": "minecraft:random_chance_with_looting",
-                          "chance": 0.015,
+                          "condition": "minecraft:random_chance",
+                          "chance": 0.075,
                           "looting_multiplier": 0.01
                         }
                     ]
@@ -71,12 +63,8 @@
 
                     "conditions": [
                         {
-                          "condition": "minecraft:killed_by_player"
-                        },
-
-                        {
-                          "condition": "minecraft:random_chance_with_looting",
-                          "chance": 0.0050,
+                          "condition": "minecraft:random_chance",
+                          "chance": 0.050,
                           "looting_multiplier": 0.01
                         }
                     ]
@@ -96,12 +84,8 @@
 
                     "conditions": [
                         {
-                          "condition": "minecraft:killed_by_player"
-                        },
-
-                        {
-                          "condition": "minecraft:random_chance_with_looting",
-                          "chance": 0.0025,
+                          "condition": "minecraft:random_chance",
+                          "chance": 0.035,
                           "looting_multiplier": 0.01
                         }
                     ]
