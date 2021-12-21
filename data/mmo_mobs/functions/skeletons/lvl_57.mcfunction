@@ -1,6 +1,6 @@
 # Mob Hitpoints:
-attribute @s minecraft:generic.max_health base set 280
-data modify entity @s Health set value 280f
+attribute @s minecraft:generic.max_health base set 145
+data modify entity @s Health set value 145f
 
 # Mob Attack Strength:
 attribute @s minecraft:generic.attack_damage base set 18.5
