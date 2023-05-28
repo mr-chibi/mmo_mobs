@@ -22,8 +22,8 @@ execute if score @s[scores={hunter_lvl=51..59}] slain_skeleton matches 1 run loo
 execute if score @s[scores={hunter_lvl=51..59}] slain_skeleton matches 1 run loot spawn ^ ^ ^3 loot mmo_mobs:weapons/diamond_sword
 
 # Netherite:
-execute if score @s[scores={hunter_lvl=61..69}] slain_skeleton matches 1 run loot spawn ^ ^ ^3 loot mmo_mobs:armor/netherite
-execute if score @s[scores={hunter_lvl=61..69}] slain_skeleton matches 1 run loot spawn ^ ^ ^3 loot mmo_mobs:weapons/netherite_sword
+execute if score @s[scores={hunter_lvl=69..}] slain_skeleton matches 1 run loot spawn ^ ^ ^3 loot mmo_mobs:armor/netherite
+execute if score @s[scores={hunter_lvl=69..}] slain_skeleton matches 1 run loot spawn ^ ^ ^3 loot mmo_mobs:weapons/netherite_sword
 
 
 ##########################################################
@@ -50,5 +50,5 @@ execute if score @s[scores={hunter_lvl=51..59}] slain_stray matches 1 run loot s
 execute if score @s[scores={hunter_lvl=51..59}] slain_stray matches 1 run loot spawn ^ ^ ^3 loot mmo_mobs:weapons/diamond_sword
 
 # Netherite:
-execute if score @s[scores={hunter_lvl=61..69}] slain_stray matches 1 run loot spawn ^ ^ ^3 loot mmo_mobs:armor/netherite
-execute if score @s[scores={hunter_lvl=61..69}] slain_stray matches 1 run loot spawn ^ ^ ^3 loot mmo_mobs:weapons/netherite_sword
+execute if score @s[scores={hunter_lvl=69..}] slain_stray matches 1 run loot spawn ^ ^ ^3 loot mmo_mobs:armor/netherite
+execute if score @s[scores={hunter_lvl=69..}] slain_stray matches 1 run loot spawn ^ ^ ^3 loot mmo_mobs:weapons/netherite_sword

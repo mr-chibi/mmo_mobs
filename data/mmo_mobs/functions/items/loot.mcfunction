@@ -1,7 +1,6 @@
 ##########################################################
 # Skeleton Loot:
 ##########################################################
-# Skeletons
 execute if score @s[scores={slain_skeleton=1..}] slain_skeleton matches 1 run loot spawn ^ ^ ^3 loot mmo_mobs:items/loot
 execute if score @s[scores={slain_stray=1..}] slain_stray matches 1 run loot spawn ^ ^ ^3 loot mmo_mobs:items/loot
 
