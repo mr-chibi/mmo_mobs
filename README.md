@@ -1,5 +1,5 @@
 <h1><img src="https://github.com/mr-chibi/mmo/blob/main/pack.png?raw=true"> Mr_Chibi'sMMO Mobs</h1>
-<p>Mr_Chibi'sMMO is a minecraft datapack! It's Singleplayer & Multiplayer Friendly! Admins can create their own mobs or use datpacks whilist players interact with them into world!</p>
+<p>Mr_Chibi'sMMO is a minecraft datapack! It's Singleplayer & Multiplayer Friendly! Admins can create their own mobs or use datapacks whilist players interact with them into world!</p>
 
 <h2>What Unique Features does pack offer?</h2>
 <ul>
