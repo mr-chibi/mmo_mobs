@@ -1,5 +1,6 @@
 > # Mr_Chibi'sMMO Custom Mobs (ADDON):
 What is Mr_Chibi'sMMO Mobs? It's a creation tool to allow [users] to create the own type of custom mob!
+Also custom varient mobs spawn into world and spawns them naturally based off RNG.
 
 > ## Need Help Creating a custom mob?
 _Check out these following links to create your first mob:_
