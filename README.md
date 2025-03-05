@@ -16,5 +16,5 @@ Pack has a list of tools [users] can take advantage of such as customizations of
 - Custom HandItems,
 - Customizable Drop Chances for [Armor] & [HandItems]
 - Reset Command to reset attributes for [HandItems, Boots, Leggings, Chestplate, Helmet, Skulls or Heads] when holding selected Item in hand and toggling command for the specific slot.
-- Saving Command (to save mob you created into a spawn egg! For later use and editing!)
+- Saving Command (to save mob you created into a spawn egg! For later use and editing!) or saving custom already spawned mobs in world to get the data.
 - Inserting data into storage allowing custom mobs to spawn into the world for vanilla survival gameplay!
