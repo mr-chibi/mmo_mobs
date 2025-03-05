@@ -1,0 +1,2 @@
+#
+data modify storage minecraft:mmo_mobs bee insert 0 value {ArmorDropChances: [{}, {}, {}, {}], Health: 5.0d, ArmorItems: [{}, {}, {}, {}], HandDropChances: [{}, {}], attributes: [{id: "minecraft:scale", base: 0.4d}, {id: "minecraft:attack_damage", base: 2.0d}, {id: "minecraft:max_health", base: 5.0d}, {id: "minecraft:armor", base: 0.0d}], id: "minecraft:bee", NoAI: 1b, HandItems: [{}, {}]}

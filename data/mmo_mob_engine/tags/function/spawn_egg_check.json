@@ -1,0 +1,6 @@
+{
+	"values":[
+		"mmo_mob_engine:tags/holding_entity_type",
+		"mmo_mob_engine:tags/not_holding_entity_type"
+	]
+}

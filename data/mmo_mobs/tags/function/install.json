@@ -6,6 +6,6 @@
 		"mmo_mobs:scoreboards/install",
 
 		// Database:
-		"mmo_mobs:scoreboards/database/init"
+		"mmo_mob_spawning:scoreboards/install"
 	]
 }

@@ -1,0 +1,7 @@
+{
+	"values":[
+		"mmo_mob_spawning:database/random/init",
+		"mmo_mob_spawning:database/random/get_rng",
+		"mmo_mob_spawning:database/random/update"
+	]
+}

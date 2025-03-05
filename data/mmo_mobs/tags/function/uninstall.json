@@ -1,5 +1,6 @@
 {
 	"values": [
-		"mmo_mobs:scoreboards/uninstall"
+		"mmo_mobs:scoreboards/uninstall",
+		"mmo_mob_spawning:scoreboards/uninstall"
 	]
 }

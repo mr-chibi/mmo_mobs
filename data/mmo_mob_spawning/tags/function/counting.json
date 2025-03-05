@@ -1,0 +1,6 @@
+{
+	"values":[
+		"mmo_mob_spawning:database/count/init",
+		"mmo_mob_spawning:database/count/update"
+	]
+}

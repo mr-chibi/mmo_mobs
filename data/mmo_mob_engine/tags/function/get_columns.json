@@ -1,0 +1,11 @@
+{
+	"values":[
+		"mmo_mob_engine:get/columns/name",
+		"mmo_mob_engine:get/columns/weapons",
+		"mmo_mob_engine:get/columns/helmet",
+		"mmo_mob_engine:get/columns/chestplate",
+		"mmo_mob_engine:get/columns/leggings",
+		"mmo_mob_engine:get/columns/boots",
+		"mmo_mob_engine:get/columns/attributes"
+	]
+}

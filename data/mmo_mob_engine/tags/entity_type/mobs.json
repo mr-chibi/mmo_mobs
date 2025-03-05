@@ -1,20 +1,31 @@
 {
 	"values": [
+
+		// Passive Mobs [Flying]:
+		"minecraft:chicken",
+		"minecraft:parrot",
+		"minecraft:bee",
+
+		// Hostile Mobs:
 		"minecraft:skeleton",
+		"minecraft:wither_skeleton",
 		"minecraft:stray",
+
 		"minecraft:zombie",
 		"minecraft:zombie_villager",
 		"minecraft:husk",
 		"minecraft:drowned",
+
 		"minecraft:spider",
 		"minecraft:cave_spider",
+
 		"minecraft:pillager",
-		"minecraft:evoker",
 		"minecraft:vindicator",
-		"minecraft:wither_skeleton",
-		"minecraft:enderman",
+
 		"minecraft:piglin",
 		"minecraft:piglin_brute",
-		"minecraft:zombified_piglin"
+		"minecraft:zombified_piglin",
+
+		"minecraft:enderman"
 	]
 }

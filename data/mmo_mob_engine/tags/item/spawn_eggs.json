@@ -1,0 +1,36 @@
+{
+	"values": [
+
+		// Passive Mobs [Flying]:
+		"minecraft:chicken_spawn_egg",
+		"minecraft:parrot_spawn_egg",
+		"minecraft:bee_spawn_egg",
+
+		// Skeletons:
+		"minecraft:skeleton_spawn_egg",
+		"minecraft:wither_skeleton_spawn_egg",
+		"minecraft:stray_spawn_egg",
+
+		// Zombies:
+		"minecraft:zombie_spawn_egg",
+		"minecraft:zombie_villager_spawn_egg",
+		"minecraft:husk_spawn_egg",
+		"minecraft:drowned_spawn_egg",
+
+		// Spiders:
+		"minecraft:spider_spawn_egg",
+		"minecraft:cave_spider_spawn_egg",
+
+		// Pillagers:
+		"minecraft:pillager_spawn_egg",
+		"minecraft:vindicator_spawn_egg",
+
+		// Nether Mobs:
+		"minecraft:piglin_spawn_egg",
+		"minecraft:piglin_brute_spawn_egg",
+		"minecraft:zombified_piglin_spawn_egg",
+
+		// The End:
+		"minecraft:enderman_spawn_egg"
+	]
+}

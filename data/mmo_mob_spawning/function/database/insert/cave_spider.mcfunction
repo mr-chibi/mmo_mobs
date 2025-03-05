@@ -1,0 +1,2 @@
+#
+data modify storage minecraft:mmo_mobs cave_spider insert 0 value {ArmorDropChances: [{}, {}, {}, {}], Health: 3.0d, ArmorItems: [{}, {}, {}, {}], HandDropChances: [{}, {}], attributes: [{id: "minecraft:scale", base: 0.4d}, {id: "minecraft:attack_damage", base: 3.0d}, {id: "minecraft:max_health", base: 3.0d}, {id: "minecraft:armor", base: 7.0d}], id: "minecraft:cave_spider", NoAI: 1b, HandItems: [{}, {}]}

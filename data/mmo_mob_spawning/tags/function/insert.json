@@ -1,0 +1,25 @@
+{
+	"values":[
+		// Passive:
+		"mmo_mob_spawning:database/insert/chicken",
+		"mmo_mob_spawning:database/insert/parrot",
+		"mmo_mob_spawning:database/insert/bee",
+
+		// Hostile:
+		"mmo_mob_spawning:database/insert/skeleton",
+		"mmo_mob_spawning:database/insert/wither_skeleton",
+		"mmo_mob_spawning:database/insert/stray",
+		"mmo_mob_spawning:database/insert/zombie",
+		"mmo_mob_spawning:database/insert/zombie_villager",
+		"mmo_mob_spawning:database/insert/husk",
+		"mmo_mob_spawning:database/insert/drowned",
+		"mmo_mob_spawning:database/insert/spider",
+		"mmo_mob_spawning:database/insert/cave_spider",
+		"mmo_mob_spawning:database/insert/pillager",
+		"mmo_mob_spawning:database/insert/vindicator",
+		"mmo_mob_spawning:database/insert/piglin",
+		"mmo_mob_spawning:database/insert/piglin_brute",
+		"mmo_mob_spawning:database/insert/zombified_piglin",
+		"mmo_mob_spawning:database/insert/enderman"
+	]
+}
