@@ -1,6 +1,6 @@
 # Uninstall Data:
-scoreboard players set mmo_mobs mmo_removeons 0
-scoreboard players remove total_removeons mmo_removeons 1
+scoreboard players set mmo_mobs mmo_addons 0
+scoreboard players remove total_addons mmo_addons 1
 
 #
 scoreboard objectives remove mmo_create_mob
