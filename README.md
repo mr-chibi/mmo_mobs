@@ -2,9 +2,12 @@
 What is Mr_Chibi'sMMO Mobs? It's a creation tool to allow [users] to create the own type of custom mob!
 Also custom varient mobs spawn into world and spawns them naturally based off RNG.
 
-> # Does this pack have requirements?
-- Yes, pack has requirements you'll need [[Mr_Chibi'sMMO Datapack]](https://github.com/mr-chibi/mmo/releases) Installed for it to work.
+> ## Does this pack have requirements?
+- Yes, pack has requirements you'll need [Mr_Chibi'sMMO Datapack](https://modrinth.com/datapack/mr_chibismmo) Installed for it to work.
 - If you're using **Vanilla use /reload** command once all data is installed. If you're using paper **/minecraft:reload**
+
+> ### Need Visual Video Tutorial?
+Don't worry I've got you covered [Custom Mobs Tutorial](https://www.youtube.com/watch?v=phMU9QjVA_A)
 
 > ### Need Help Creating a custom mob?
 _Check out these following links to create your first mob:_
