@@ -4,21 +4,21 @@ $execute if data storage minecraft:mmo_mobs bee[$(rng_bee)] run function mmo_mob
 ####################################################
 # [Load] [HandItems / HandItems Chance]
 ####################################################
-$data modify entity @s HandItems[0] set from storage minecraft:mmo_mobs bee[$(rng_bee)].HandItems[0]
-$data modify entity @s HandItems[1] set from storage minecraft:mmo_mobs bee[$(rng_bee)].HandItems[1]
-$data modify entity @s HandDropChances[0] set from storage minecraft:mmo_mobs bee[$(rng_bee)].HandDropChances[0]
-$data modify entity @s HandDropChances[1] set from storage minecraft:mmo_mobs bee[$(rng_bee)].HandDropChances[1]
+$data modify entity @s equipment.mainhand set from storage minecraft:mmo_mobs bee[$(rng_bee)].equipment.mainhand
+$data modify entity @s equipment.offhand set from storage minecraft:mmo_mobs bee[$(rng_bee)].equipment.offhand
+$data modify entity @s drop_chances.mainhand set from storage minecraft:mmo_mobs bee[$(rng_bee)].drop_chances.mainhand
+$data modify entity @s drop_chances.offhand set from storage minecraft:mmo_mobs bee[$(rng_bee)].drop_chances.offhand
 
 
 # [Load] [Gear / Gear Chance]
-$data modify entity @s ArmorItems[0] set from storage minecraft:mmo_mobs bee[$(rng_bee)].ArmorItems[0]
-$data modify entity @s ArmorItems[1] set from storage minecraft:mmo_mobs bee[$(rng_bee)].ArmorItems[1]
-$data modify entity @s ArmorItems[2] set from storage minecraft:mmo_mobs bee[$(rng_bee)].ArmorItems[2]
-$data modify entity @s ArmorItems[3] set from storage minecraft:mmo_mobs bee[$(rng_bee)].ArmorItems[3]
-$data modify entity @s ArmorDropChances[0] set from storage minecraft:mmo_mobs bee[$(rng_bee)].ArmorDropChances[0]
-$data modify entity @s ArmorDropChances[1] set from storage minecraft:mmo_mobs bee[$(rng_bee)].ArmorDropChances[1]
-$data modify entity @s ArmorDropChances[2] set from storage minecraft:mmo_mobs bee[$(rng_bee)].ArmorDropChances[2]
-$data modify entity @s ArmorDropChances[3] set from storage minecraft:mmo_mobs bee[$(rng_bee)].ArmorDropChances[3]
+$data modify entity @s equipment.feet set from storage minecraft:mmo_mobs bee[$(rng_bee)].equipment.feet
+$data modify entity @s equipment.legs set from storage minecraft:mmo_mobs bee[$(rng_bee)].equipment.legs
+$data modify entity @s equipment.chest set from storage minecraft:mmo_mobs bee[$(rng_bee)].equipment.chest
+$data modify entity @s equipment.head set from storage minecraft:mmo_mobs bee[$(rng_bee)].equipment.head
+$data modify entity @s drop_chances.feet set from storage minecraft:mmo_mobs bee[$(rng_bee)].drop_chances.feet
+$data modify entity @s drop_chances.legs set from storage minecraft:mmo_mobs bee[$(rng_bee)].drop_chances.legs
+$data modify entity @s drop_chances.chest set from storage minecraft:mmo_mobs bee[$(rng_bee)].drop_chances.chest
+$data modify entity @s drop_chances.head set from storage minecraft:mmo_mobs bee[$(rng_bee)].drop_chances.head
 
 # [Load] [Attributes [HP]]
 $data modify entity @s attributes[{id:"minecraft:max_health"}].base set from storage minecraft:mmo_mobs bee[$(rng_bee)].attributes[{id:"minecraft:max_health"}].base

@@ -4,21 +4,21 @@ $execute if data storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_village
 ####################################################
 # [Load] [HandItems / HandItems Chance]
 ####################################################
-$data modify entity @s HandItems[0] set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].HandItems[0]
-$data modify entity @s HandItems[1] set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].HandItems[1]
-$data modify entity @s HandDropChances[0] set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].HandDropChances[0]
-$data modify entity @s HandDropChances[1] set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].HandDropChances[1]
+$data modify entity @s equipment.mainhand set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].equipment.mainhand
+$data modify entity @s equipment.offhand set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].equipment.offhand
+$data modify entity @s drop_chances.mainhand set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].drop_chances.mainhand
+$data modify entity @s drop_chances.offhand set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].drop_chances.offhand
 
 
 # [Load] [Gear / Gear Chance]
-$data modify entity @s ArmorItems[0] set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].ArmorItems[0]
-$data modify entity @s ArmorItems[1] set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].ArmorItems[1]
-$data modify entity @s ArmorItems[2] set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].ArmorItems[2]
-$data modify entity @s ArmorItems[3] set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].ArmorItems[3]
-$data modify entity @s ArmorDropChances[0] set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].ArmorDropChances[0]
-$data modify entity @s ArmorDropChances[1] set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].ArmorDropChances[1]
-$data modify entity @s ArmorDropChances[2] set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].ArmorDropChances[2]
-$data modify entity @s ArmorDropChances[3] set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].ArmorDropChances[3]
+$data modify entity @s equipment.feet set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].equipment.feet
+$data modify entity @s equipment.legs set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].equipment.legs
+$data modify entity @s equipment.chest set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].equipment.chest
+$data modify entity @s equipment.head set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].equipment.head
+$data modify entity @s drop_chances.feet set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].drop_chances.feet
+$data modify entity @s drop_chances.legs set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].drop_chances.legs
+$data modify entity @s drop_chances.chest set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].drop_chances.chest
+$data modify entity @s drop_chances.head set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].drop_chances.head
 
 # [Load] [Attributes [HP]]
 $data modify entity @s attributes[{id:"minecraft:max_health"}].base set from storage minecraft:mmo_mobs zombie_villager[$(rng_zombie_villager)].attributes[{id:"minecraft:max_health"}].base

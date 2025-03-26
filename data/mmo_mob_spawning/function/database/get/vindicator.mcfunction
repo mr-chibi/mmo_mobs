@@ -4,21 +4,21 @@ $execute if data storage minecraft:mmo_mobs vindicator[$(rng_vindicator)] run fu
 ####################################################
 # [Load] [HandItems / HandItems Chance]
 ####################################################
-$data modify entity @s HandItems[0] set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].HandItems[0]
-$data modify entity @s HandItems[1] set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].HandItems[1]
-$data modify entity @s HandDropChances[0] set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].HandDropChances[0]
-$data modify entity @s HandDropChances[1] set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].HandDropChances[1]
+$data modify entity @s equipment.mainhand set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].equipment.mainhand
+$data modify entity @s equipment.offhand set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].equipment.offhand
+$data modify entity @s drop_chances.mainhand set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].drop_chances.mainhand
+$data modify entity @s drop_chances.offhand set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].drop_chances.offhand
 
 
 # [Load] [Gear / Gear Chance]
-$data modify entity @s ArmorItems[0] set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].ArmorItems[0]
-$data modify entity @s ArmorItems[1] set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].ArmorItems[1]
-$data modify entity @s ArmorItems[2] set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].ArmorItems[2]
-$data modify entity @s ArmorItems[3] set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].ArmorItems[3]
-$data modify entity @s ArmorDropChances[0] set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].ArmorDropChances[0]
-$data modify entity @s ArmorDropChances[1] set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].ArmorDropChances[1]
-$data modify entity @s ArmorDropChances[2] set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].ArmorDropChances[2]
-$data modify entity @s ArmorDropChances[3] set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].ArmorDropChances[3]
+$data modify entity @s equipment.feet set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].equipment.feet
+$data modify entity @s equipment.legs set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].equipment.legs
+$data modify entity @s equipment.chest set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].equipment.chest
+$data modify entity @s equipment.head set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].equipment.head
+$data modify entity @s drop_chances.feet set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].drop_chances.feet
+$data modify entity @s drop_chances.legs set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].drop_chances.legs
+$data modify entity @s drop_chances.chest set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].drop_chances.chest
+$data modify entity @s drop_chances.head set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].drop_chances.head
 
 # [Load] [Attributes [HP]]
 $data modify entity @s attributes[{id:"minecraft:max_health"}].base set from storage minecraft:mmo_mobs vindicator[$(rng_vindicator)].attributes[{id:"minecraft:max_health"}].base

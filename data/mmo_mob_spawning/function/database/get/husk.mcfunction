@@ -4,21 +4,21 @@ $execute if data storage minecraft:mmo_mobs husk[$(rng_husk)] run function mmo_m
 ####################################################
 # [Load] [HandItems / HandItems Chance]
 ####################################################
-$data modify entity @s HandItems[0] set from storage minecraft:mmo_mobs husk[$(rng_husk)].HandItems[0]
-$data modify entity @s HandItems[1] set from storage minecraft:mmo_mobs husk[$(rng_husk)].HandItems[1]
-$data modify entity @s HandDropChances[0] set from storage minecraft:mmo_mobs husk[$(rng_husk)].HandDropChances[0]
-$data modify entity @s HandDropChances[1] set from storage minecraft:mmo_mobs husk[$(rng_husk)].HandDropChances[1]
+$data modify entity @s equipment.mainhand set from storage minecraft:mmo_mobs husk[$(rng_husk)].equipment.mainhand
+$data modify entity @s equipment.offhand set from storage minecraft:mmo_mobs husk[$(rng_husk)].equipment.offhand
+$data modify entity @s drop_chances.mainhand set from storage minecraft:mmo_mobs husk[$(rng_husk)].drop_chances.mainhand
+$data modify entity @s drop_chances.offhand set from storage minecraft:mmo_mobs husk[$(rng_husk)].drop_chances.offhand
 
 
 # [Load] [Gear / Gear Chance]
-$data modify entity @s ArmorItems[0] set from storage minecraft:mmo_mobs husk[$(rng_husk)].ArmorItems[0]
-$data modify entity @s ArmorItems[1] set from storage minecraft:mmo_mobs husk[$(rng_husk)].ArmorItems[1]
-$data modify entity @s ArmorItems[2] set from storage minecraft:mmo_mobs husk[$(rng_husk)].ArmorItems[2]
-$data modify entity @s ArmorItems[3] set from storage minecraft:mmo_mobs husk[$(rng_husk)].ArmorItems[3]
-$data modify entity @s ArmorDropChances[0] set from storage minecraft:mmo_mobs husk[$(rng_husk)].ArmorDropChances[0]
-$data modify entity @s ArmorDropChances[1] set from storage minecraft:mmo_mobs husk[$(rng_husk)].ArmorDropChances[1]
-$data modify entity @s ArmorDropChances[2] set from storage minecraft:mmo_mobs husk[$(rng_husk)].ArmorDropChances[2]
-$data modify entity @s ArmorDropChances[3] set from storage minecraft:mmo_mobs husk[$(rng_husk)].ArmorDropChances[3]
+$data modify entity @s equipment.feet set from storage minecraft:mmo_mobs husk[$(rng_husk)].equipment.feet
+$data modify entity @s equipment.legs set from storage minecraft:mmo_mobs husk[$(rng_husk)].equipment.legs
+$data modify entity @s equipment.chest set from storage minecraft:mmo_mobs husk[$(rng_husk)].equipment.chest
+$data modify entity @s equipment.head set from storage minecraft:mmo_mobs husk[$(rng_husk)].equipment.head
+$data modify entity @s drop_chances.feet set from storage minecraft:mmo_mobs husk[$(rng_husk)].drop_chances.feet
+$data modify entity @s drop_chances.legs set from storage minecraft:mmo_mobs husk[$(rng_husk)].drop_chances.legs
+$data modify entity @s drop_chances.chest set from storage minecraft:mmo_mobs husk[$(rng_husk)].drop_chances.chest
+$data modify entity @s drop_chances.head set from storage minecraft:mmo_mobs husk[$(rng_husk)].drop_chances.head
 
 # [Load] [Attributes [HP]]
 $data modify entity @s attributes[{id:"minecraft:max_health"}].base set from storage minecraft:mmo_mobs husk[$(rng_husk)].attributes[{id:"minecraft:max_health"}].base

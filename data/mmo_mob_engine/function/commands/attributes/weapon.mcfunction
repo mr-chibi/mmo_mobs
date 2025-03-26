@@ -1,6 +1,6 @@
 # [Updated Armor Slots]:
-execute if items entity @s weapon.mainhand * run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] HandItems[0] set from entity @s SelectedItem
-execute if items entity @s weapon.offhand * run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] HandItems[1] set from entity @s Inventory[{Slot:-106b}]
+execute if items entity @s weapon.mainhand * run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] equipment.mainhand set from entity @s SelectedItem
+execute if items entity @s weapon.offhand * run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] equipment.offhand set from entity @s equipment.offhand
 
 # [Updated Msg Successfully]:
 execute if items entity @s weapon.mainhand * if entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest] run tellraw @s [{"text": "Successfully, updated custom mob ", "color": "#a3a3a3"}, {"text": "Main Hand", "color":"red"}, {"text": "!", "color": "#a3a3a3"}]

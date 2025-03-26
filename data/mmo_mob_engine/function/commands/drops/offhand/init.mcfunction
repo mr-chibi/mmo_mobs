@@ -1,5 +1,5 @@
 # [Updated Armor Slots]:
-execute store result entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] HandDropChances[1] float 1 run function mmo_mob_engine:commands/drops/offhand/get
+execute store result entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] drop_chances.offhand float 1 run function mmo_mob_engine:commands/drops/offhand/get
 
 # [Backup command incase player tries break values]:
 scoreboard players set @s[scores={mmo_mob_offhand_drop=100..}] mmo_mob_offhand_drop 100

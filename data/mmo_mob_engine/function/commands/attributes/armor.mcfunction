@@ -9,10 +9,10 @@ execute unless items entity @s weapon.mainhand minecraft:air if entity @e[type=#
 #######################################################
 # [Updated Armor Slots]:
 #######################################################
-execute if items entity @s weapon.mainhand #mmo_mob_engine:boots run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] ArmorItems[0] set from entity @s SelectedItem
-execute if items entity @s weapon.mainhand #mmo_mob_engine:leggings run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] ArmorItems[1] set from entity @s SelectedItem
-execute if items entity @s weapon.mainhand #mmo_mob_engine:chestplate run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] ArmorItems[2] set from entity @s SelectedItem
-execute if items entity @s weapon.mainhand #mmo_mob_engine:helmet run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] ArmorItems[3] set from entity @s SelectedItem
+execute if items entity @s weapon.mainhand #mmo_mob_engine:boots run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] equipment.feet set from entity @s SelectedItem
+execute if items entity @s weapon.mainhand #mmo_mob_engine:leggings run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] equipment.legs set from entity @s SelectedItem
+execute if items entity @s weapon.mainhand #mmo_mob_engine:chestplate run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] equipment.chest set from entity @s SelectedItem
+execute if items entity @s weapon.mainhand #mmo_mob_engine:helmet run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] equipment.head set from entity @s SelectedItem
 
 # [Updated Msg Successfully] [Armor]:
 execute if items entity @s weapon.mainhand #mmo_mob_engine:boots if entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest] run tellraw @s [{"text": "Successfully, updated custom mob ", "color": "#a3a3a3"}, {"text": "Boots Slot", "color":"red"}, {"text": "!", "color": "#a3a3a3"}]

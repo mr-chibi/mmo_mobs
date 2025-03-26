@@ -1,12 +1,12 @@
 # [Updated Weapon Slots] [Main/Off]:
-execute if items entity @s weapon.mainhand * run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] HandItems[0].id set value ""
-execute if items entity @s weapon.offhand * run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] HandItems[1].id set value ""
+execute if items entity @s weapon.mainhand * run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] equipment.mainhand.id set value ""
+execute if items entity @s weapon.offhand * run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] equipment.offhand.id set value ""
 
 # [Updated Armor Slots]:
-execute if items entity @s weapon.mainhand #mmo_mob_engine:boots run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] ArmorItems[0].id set value ""
-execute if items entity @s weapon.mainhand #mmo_mob_engine:leggings run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] ArmorItems[1].id set value ""
-execute if items entity @s weapon.mainhand #mmo_mob_engine:chestplate run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] ArmorItems[2].id set value ""
-execute if items entity @s weapon.mainhand #mmo_mob_engine:helmet run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] ArmorItems[3].id set value ""
+execute if items entity @s weapon.mainhand #mmo_mob_engine:boots run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] equipment.boots.id set value ""
+execute if items entity @s weapon.mainhand #mmo_mob_engine:leggings run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] equipment.legs.id set value ""
+execute if items entity @s weapon.mainhand #mmo_mob_engine:chestplate run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] equipment.chest.id set value ""
+execute if items entity @s weapon.mainhand #mmo_mob_engine:helmet run data modify entity @e[type=#mmo_mob_engine:mobs,distance=0..5,sort=nearest,limit=1] equipment.head.id set value ""
 
 
 # [Updated Msg Successfully] [Main/Off]:
