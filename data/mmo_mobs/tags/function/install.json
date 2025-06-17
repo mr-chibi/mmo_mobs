@@ -1,11 +1,8 @@
 {
 	"values": [
-
-		// Installation
 		"mmo_mobs:scoreboards/multiplayer/addons",
 		"mmo_mobs:scoreboards/install",
 
-		// Database:
 		"mmo_mob_spawning:scoreboards/install"
 	]
 }

@@ -1,17 +1,14 @@
 {
 	"values": [
-		// Skulls:
 		"minecraft:skeleton_skull",
 		"minecraft:wither_skeleton_skull",
 
-		// Heads:
 		"minecraft:player_head",
 		"minecraft:zombie_head",
 		"minecraft:creeper_head",
 		"minecraft:piglin_head",
 		"minecraft:dragon_head",
 
-		// Helmets:
 		"minecraft:turtle_helmet",
 		"minecraft:leather_helmet",
 		"minecraft:chainmail_helmet",

@@ -1,11 +1,9 @@
 {
 	"values":[
-		// Passive:
 		"mmo_mob_spawning:database/insert/chicken",
 		"mmo_mob_spawning:database/insert/parrot",
 		"mmo_mob_spawning:database/insert/bee",
 
-		// Hostile:
 		"mmo_mob_spawning:database/insert/skeleton",
 		"mmo_mob_spawning:database/insert/wither_skeleton",
 		"mmo_mob_spawning:database/insert/stray",
